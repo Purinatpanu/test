@@ -1,10 +1,29 @@
+import java.util.Scanner;
+
 @SuppressWarnings("unchecked")
 public class Lab11_1_640510676 {
     public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter 3 integer numbers");
+    int a = in.nextInt();
+    int b = in.nextInt();
+    int c = in.nextInt();
     
-    System.out.println(getCenter(8,3,1));
-    System.out.println(getCenter('x','a','c'));
-    System.out.println(getCenter(1.8,4.9,2.5));    
+    System.out.println("Enter 3 characters");
+    char d = in.next().charAt(0);
+    char e = in.next().charAt(0);
+    char f = in.next().charAt(0);
+
+    System.out.println("Enter 3 float numbers");
+    float g = in.nextFloat();
+    float h = in.nextFloat();
+    float i = in.nextFloat();
+
+    System.out.println();
+    System.out.println(getCenter(a,b,c));
+    System.out.println(getCenter(d,e,f));
+    System.out.println(getCenter(g,h,i)); 
+    in.close();   
     }
     
     public static <T extends Comparable<T>> T getCenter(T a, T b,T c){
