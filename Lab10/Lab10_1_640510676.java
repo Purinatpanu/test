@@ -58,6 +58,7 @@ public class Lab10_1_640510676 {
             }
         }
         reprotGrade(Index, stu, uGrade, sGrade);
+        in.close();
     }
 
     static void reprotGrade(int Index, Student[] stu, int uGrade, int sGrade){
