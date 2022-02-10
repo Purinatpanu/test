@@ -16,9 +16,7 @@ public class Lab11_1_640510676 {
                 center = a;
             else if (a.compareTo(c) > 0 && c.compareTo(b)> 0)
                 center = c;
-           
         }
-
         else if (a.getClass() == Character.class){
             center = (T)(Character)(' ');
             if (a.compareTo(b) > 0 && b.compareTo(c) > 0)
@@ -28,7 +26,6 @@ public class Lab11_1_640510676 {
             else if (a.compareTo(c) > 0 && c.compareTo(b)> 0)
                 center = c;
         }
-
         else {
             center =(T)(Float)(0f);
             if (a.compareTo(b) < 0 && b.compareTo(c) < 0)
@@ -44,7 +41,6 @@ public class Lab11_1_640510676 {
             else if (a.compareTo(c) > 0 && c.compareTo(b) > 0)
                 center = c;    
         }
-
         return center;
     }
 }
