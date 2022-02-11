@@ -5,6 +5,5 @@ public class Lab11_2_640510676 {
 }
 
 class Queue{
-    
 
 }
