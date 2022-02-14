@@ -28,10 +28,7 @@ public class Lab11_1_640510676 {
     System.out.println(getCenter(a,b,c));
     System.out.println(getCenter(d,e,f));
     System.out.println(getCenter(g,h,i)); 
-    in.close();
-  
-
-  
+    in.close();  
     }
     
     static <T extends Comparable<T>> T getCenter(T a, T b,T c){
